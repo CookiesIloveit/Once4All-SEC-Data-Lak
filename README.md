@@ -16,12 +16,12 @@
 ### 1. Submissions Pipeline (Large Aggregated Files)
 * **Throughput:** ~3,600 Files/sec (Processed ~944k files in 4.3 minutes)
 * **Resource Usage:** **CPU ~25-30%** | **RAM ~65-70%** (See Engineering Analysis regarding the low CPU usage)
-* **Metric:** [Insert Graph Image: Submissions_Final_Metrics_report_20251210_025057.png]
+* **Metric:** ![Submissions Benchmark](Submissions_Final_Metrics_report_20251210_025057.png)
   
 ### 2. Company Facts Pipeline (Small Granular Files)
 * **Throughput:** Consistent handling of 18,000+ high-frequency small files.
 * **Success Rate:** Handled 16,415 valid files, skipping ~13% invalid source files without interruption.
-* **Metric:** [Insert Graph Image: companyFact_Final_Metrics_report_20251210_024623.png]
+* **Metric:** ![Company Facts Benchmark](companyFact_Final_Metrics_report_20251210_024623.png)
 ---
 
 ## Engineering Analysis & Challenges (บทวิเคราะห์ทางเทคนิค)
